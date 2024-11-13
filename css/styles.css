@@ -1,0 +1,61 @@
+*
+{
+    display: grid;
+}
+
+div
+{
+    border: 1px solid black;
+    margin: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img
+{
+    width: 100%;
+    height: 100%;
+}
+
+main
+{
+    width: 60%;
+    margin: auto;
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: repeat(5,20%);
+    grid-template-columns: repeat(5,20%);
+}
+
+.block0
+{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.block1
+{
+    grid-column-start: 4;
+    grid-column-end: 6;
+}
+
+.block4
+{
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+.block6
+{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.block10
+{
+    grid-column-start: 3;
+    grid-column-end: 6;
+}
